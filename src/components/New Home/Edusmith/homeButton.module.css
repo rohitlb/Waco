@@ -1,0 +1,9 @@
+.btn{
+    padding: 12px 24px;
+    font-weight: 600;
+    font-family: "Roboto",Sans-Serif;
+    font-size: 15px;
+    background: none;
+    border: solid 2px black;
+    border-radius: 3px;
+}

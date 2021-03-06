@@ -1,0 +1,51 @@
+
+:root{
+    --height-of-nav:67px
+}
+.bars{
+    display: none;
+}
+.nav{
+    height: var(--height-of-nav);
+  
+}
+
+.menu{
+    transition: height 1s;
+    color: #737070;
+    font-family: "Overlock", Sans-serif;
+    font-size: 23px;
+    font-weight: 600;
+}
+
+    @media screen and (max-width:900px){
+    .menu{
+        width: 70%;
+    }
+}
+@media screen and (max-width:760px){
+    .menu{
+    position: absolute;
+    top: var(--height-of-nav);
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    }
+    .Open{
+        height: 345px;
+    }
+    .notOpen{
+        height: 0px;
+    }
+    .menu>li{
+        padding: 20px;
+        width: 100%;
+    }
+    .menu>li:hover{
+        background-color: rgb(224, 224, 224);
+    }
+    .bars{
+        display: block;
+    }
+    
+}

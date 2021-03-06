@@ -1,0 +1,33 @@
+.container{
+display: flex;
+width: 100%;
+}
+.item1{
+    /* background-color: red; */
+    color: black;
+    width: 25%;
+}
+.item2{
+    /* background-color: pink; */
+    width: 75%;
+    padding: 20px;
+
+}
+.item3{
+    background-color: yellow;
+}
+.item4{
+    background-color: grey;
+}
+.moduleBox{
+    overflow-y: scroll;
+    height: 60vh;
+    width: 320px;
+}
+.addNotes{
+    border: none;
+    border-bottom: 1px solid #000;
+}
+.modules:hover{
+    background-color: #fff;
+}

@@ -1,0 +1,53 @@
+
+  .box {
+
+	margin: auto;
+	margin-top: 40px;
+	display: flex;
+	flex-direction: column;
+	height: 10vh;
+	justify-content: center;
+	align-items: center;
+  }
+  
+  .dot {
+	display: inline-block;
+	margin: 0 auto;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	margin-right: .4em;
+	animation-name: dots;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+  }
+  
+  @keyframes dots {
+	50% {
+	  opacity: 0;
+	  transform: scale(0.7) translateY(10px);
+	}
+  }
+  
+  .dot1 {
+	background-color: #4285F4;
+	animation-delay: 0.2s;
+  }
+  
+  .dot2 {
+	background-color: #DB4437;
+	animation-delay: 0.4s;
+  }
+  
+  .dot3 {
+	background-color: #F4B400;
+	animation-delay: 0.6s;
+  }
+  
+  .dot4 {
+	background-color: #0F9D58;
+	animation-delay: 0.8s;
+  }
+  
+  

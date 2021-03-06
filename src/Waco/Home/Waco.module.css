@@ -1,0 +1,82 @@
+.img1{
+    background-image: url('https://datawider.com/wp-content/uploads/2019/11/How-to-Learn-Python.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.img2{
+    background-image: url('https://res.cloudinary.com/drcx4jfun/image/upload/v1595348021/b1_i466u3.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.img3{
+    background-image: url('https://res.cloudinary.com/drcx4jfun/image/upload/v1595348027/b3_k8x7v8.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+}
+.box1{
+    position: absolute;
+    right: 5%;
+    top: 10%;
+}
+.box1>h1{
+    font-size: 3.2rem;
+    color: #0fcef7;
+    text-shadow: 1px 1px 1px #000;
+    text-transform: capitalize;
+    font-weight: 800;
+}
+.box1>p{
+    font-size: 1.6em;
+    text-transform: capitalize;
+    font-weight: 600;
+    margin-top: .5em;
+    color: black;
+}
+.box2{
+    position: absolute;
+    left: 5%;
+    top: 10%;
+}
+.box2>h1{
+    font-size: 3.2rem;
+    color: white;
+    text-shadow: 1px 1px 1px #000;
+    font-weight: 800;
+
+
+}
+
+.box2>p{
+    font-size: 1.6em;
+    text-transform: capitalize;
+    font-weight: 600;
+    margin-top: .5em;
+    color: white;
+}
+
+.box3{
+    position: absolute;
+    left: 5%;
+    top: 20%;   
+}
+
+.box3>h1{
+    font-size: 3.2rem;
+    color: white;
+    text-shadow: 1px 1px 1px #000;
+    font-weight: 800;
+
+
+}
+
+.box3>p{
+    font-size: 1.6em;
+    text-transform: capitalize;
+    font-weight: 600;
+    margin-top: .5em;
+    color: white;
+}

@@ -1,0 +1,18 @@
+.topBox{
+    height: 30vh;
+}
+
+.imageBox{
+    position: absolute;
+    top: -48px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.para{
+    max-height: 0;
+    overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  padding: 0 18px;
+
+}

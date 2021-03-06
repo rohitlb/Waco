@@ -1,0 +1,11 @@
+.topBox{
+    height: 30vh;
+}
+
+.imageBox{
+    position: absolute;
+    top: -48px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}

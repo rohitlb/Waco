@@ -1,0 +1,6 @@
+.back{
+    background-image: url('./back.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}

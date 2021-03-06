@@ -1,0 +1,30 @@
+.box{
+	background-color:rgba(0,0,0,.5);
+	display:flex;
+	position: fixed;
+	top:0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	justify-content:center;
+	flex-direction: column;
+	align-items:center;
+	width:100%;
+	min-height:100vh;
+}
+
+.fa{
+    font-size: 40px;
+    animation:Loading 1s ease-in-out infinite;
+    color: rgb(255, 255, 255);
+}
+
+@keyframes Loading{
+0%{
+transform:rotate(0deg);
+}
+100%{
+transform:rotate(180deg);
+}
+}
