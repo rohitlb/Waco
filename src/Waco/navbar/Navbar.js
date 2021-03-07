@@ -3,7 +3,7 @@ import React from 'react'
 import { Component } from 'react';
 import styles from './navbar.module.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBars, faSearch, faTint } from '@fortawesome/free-solid-svg-icons'
+import { faBars, faTint } from '@fortawesome/free-solid-svg-icons'
 import { Link } from 'react-router-dom';
 
 class Navbar extends Component{
