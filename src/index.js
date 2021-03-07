@@ -2,11 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import tachyons from 'tachyons';
+// eslint-disable-next-line
+import tachyons from 'tachyons'
 import * as serviceWorker from './serviceWorker';
 import GoogleFontLoader from 'react-google-font-loader';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
+
 AOS.init();
 ReactDOM.render(
   <React.StrictMode>
