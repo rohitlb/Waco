@@ -56,10 +56,8 @@ return(
                 </div>
             </div>
     <div className="editContent mt5 flex justify-around bg-black white pa5">
-        <iframe title="Map" src={`https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387190
-        .2798902705!2d-74.25986790365911!3d40.697670067823786!2m3!1f0!2f0!3f0!3m2!
-        1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+
-        York%2C+NY%2C+USA!5e0!3m2!1sen!2sin!4v1536917325197`} allowFullScreen=""></iframe>
+    <iframe title="Map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d112091.39684947568!2d77.27388450419198!3d28.604091921642!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cf1bb41c50fdf%3A0xe6f06fd26a7798ba!2sGhaziabad%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1615102222432!5m2!1sen!2sin"  allowfullscreen="" loading="lazy"></iframe>
+        
     <div>
         <h2>Want to get Updated with our Artistic Taps</h2>
         <br/>
