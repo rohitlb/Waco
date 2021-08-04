@@ -1,0 +1,44 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 30px;
+    background: #fafafa;
+}
+.signup{
+    width: 460px;
+    background-color: blanchedalmond;
+    padding:30px;
+    border-radius: 50px;
+background: #fafafa;
+box-shadow:  20px 20px 60px #d5d5d5,
+             -20px -20px 60px #ffffff;
+}
+.form-group{
+    font-size: 30px;
+    padding: 15px;
+}
+.form-group input{
+    font-size: 20px;
+    border:none;
+    display: flex;
+justify-content: center;
+align-items: center;
+    background-color:#fafafa;
+}
+.form-button input{
+ font-weight: 400;
+ border-radius: 50px;
+background: #b3d6d4;
+
+padding:9px;
+ 
+
+}
+.form-button input:hover{
+    padding:10px;
+    cursor: pointer;
+    
+}
